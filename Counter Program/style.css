@@ -1,0 +1,29 @@
+body{
+    background-color:rgb(255, 255, 255)
+}
+.counter{
+    position: relative;
+    top: 100px;
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+    font-family: Helvetica;
+    border-spacing: 10px;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 5px 10px;
+    font-size: 1.5em;
+    color: white;
+    background-color: hsl(214, 83%, 65%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: hsl(214, 91%, 44%);
+}
