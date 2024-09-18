@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1rem;
+}
+body {
+  background: linear-gradient(135deg, #f9844a, #f9c74f, #43aa8b, #277da1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vmin;
+  text-align: center;
+}
+h1 {
+  color: #0a1128;
+  font-size: 4rem;
+  text-decoration: underline;
+}
+.container {
+  background-color: #b8ced7;
+  padding: 5rem;
+  box-shadow: 3px 3px 30px 1px #f94144;
+  border-radius: 6rem;
+}
+#word {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  font-size: 3rem;
+}
+.hint {
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.guess {
+  border: 3px solid #1710106e;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+.ans {
+  font-size: 1.3rem;
+  visibility: hidden;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+button {
+  min-height: 3rem;
+  min-width: 8rem;
+  font-size: 3rempx;
+  border-radius: 2rem;
+  cursor: pointer;
+  background-color: #eb5e28;
+  color: #fff;
+}
+button:disabled{
+  background-color: #ef9978;
+  color: #ffffffc9;
+}
+.txtDisable {
+  border: 3px solid #cdc4c46e;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: rgb(237, 234, 234);
+}
